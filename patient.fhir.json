@@ -1,0 +1,43 @@
+{
+    "resourceType":"Patient",
+    "name":[
+        {
+    
+            "use" : "official", 
+            "text" : "Jonathan Hernandez Capistran", 
+            "family" : "Hernandez", 
+            "given" : ["Jonathan"]          
+            
+        }
+            ],
+    "gender":"male",
+    "birthDate": "1989-03-19",
+    "telecom": [
+        {
+            "system" : "phone", 
+            "value": "2461384946",
+            "use": "mobile"
+        },
+        {
+            "system": "email",
+            "value": "jhcapistran@gmail.com",
+            "use": "work"
+        }
+    ],
+    "address": [
+        {
+            
+            "use" : "home", 
+            "type" : "physical", 
+            "line" : ["niños heroes, 14c"], 
+            "city" : "Belen Atzitzimititlan", 
+            "district" : "Apetatitlan de A. Carvajal",
+            "state" : "Tlaxcala", 
+            "postalCode" : "90605", 
+            "country" : "México"            
+          }
+    ]
+
+    
+    
+}
